@@ -1,0 +1,2118 @@
+body {
+    background: #000;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #face {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+  }
+  #face .eye {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #000;
+    border-bottom: 6px solid #fff;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+  }
+  #face .eye.left {
+    margin-left: -100px;
+  }
+  #face .eye.left .eyelash {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    margin: 10px 0 0 65px;
+    border-right: 3px solid #fff;
+    border-top: 3px solid transparent;
+    border-radius: 100%;
+    transform-origin: 0% 0%;
+  }
+  #face .eye.left .eyelash:nth-child(1) {
+    height: 22px;
+    transform: rotate(10deg) translateY(8px) translateY(-1px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(2) {
+    height: 24px;
+    transform: rotate(20deg) translateY(16px) translateY(-2px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(3) {
+    height: 26px;
+    transform: rotate(30deg) translateY(24px) translateY(-3px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(4) {
+    height: 28px;
+    transform: rotate(40deg) translateY(32px) translateY(-4px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(5) {
+    height: 30px;
+    transform: rotate(50deg) translateY(40px) translateY(-5px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(6) {
+    height: 32px;
+    transform: rotate(60deg) translateY(48px) translateY(-6px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(7) {
+    height: 34px;
+    transform: rotate(70deg) translateY(56px) translateY(-7px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(8) {
+    height: 36px;
+    transform: rotate(80deg) translateY(64px) translateY(-8px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(9) {
+    height: 38px;
+    transform: rotate(90deg) translateY(72px) translateY(-9px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(10) {
+    height: 40px;
+    transform: rotate(100deg) translateY(80px) translateY(-10px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.left .eyelash:nth-child(11) {
+    height: 42px;
+    transform: rotate(110deg) translateY(88px) translateY(-11px);
+  }
+  #face .eye.left .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right {
+    margin-left: 100px;
+  }
+  #face .eye.right .eyelash {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    margin: 10px 0 0 5px;
+    border-left: 3px solid #fff;
+    border-top: 3px solid transparent;
+    border-radius: 100%;
+    transform-origin: 100% 0%;
+  }
+  #face .eye.right .eyelash:nth-child(1) {
+    height: 22px;
+    transform: rotate(-10deg) translateY(8px) translateY(-1px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(2) {
+    height: 24px;
+    transform: rotate(-20deg) translateY(16px) translateY(-2px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(3) {
+    height: 26px;
+    transform: rotate(-30deg) translateY(24px) translateY(-3px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(4) {
+    height: 28px;
+    transform: rotate(-40deg) translateY(32px) translateY(-4px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(5) {
+    height: 30px;
+    transform: rotate(-50deg) translateY(40px) translateY(-5px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(6) {
+    height: 32px;
+    transform: rotate(-60deg) translateY(48px) translateY(-6px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(7) {
+    height: 34px;
+    transform: rotate(-70deg) translateY(56px) translateY(-7px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(8) {
+    height: 36px;
+    transform: rotate(-80deg) translateY(64px) translateY(-8px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(9) {
+    height: 38px;
+    transform: rotate(-90deg) translateY(72px) translateY(-9px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(10) {
+    height: 40px;
+    transform: rotate(-100deg) translateY(80px) translateY(-10px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .eye.right .eyelash:nth-child(11) {
+    height: 42px;
+    transform: rotate(-110deg) translateY(88px) translateY(-11px);
+  }
+  #face .eye.right .eyelash:nth-child(-n+3) {
+    display: none;
+  }
+  #face .tear {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background: #000;
+    transform: translate(-50%, -50%);
+    filter: blur(10px) contrast(30);
+  }
+  #face .tear_right .drops {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 40px;
+  }
+  #face .tear_right .drops .drop {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 100%;
+  }
+  #face .tear_right:nth-child(1) .drops {
+    -webkit-animation: horizontalRight 7743ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7743ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(1) .drops .drop {
+    -webkit-animation: vertical 7743ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7743ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(2) .drops {
+    -webkit-animation: horizontalRight 4133ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4133ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(2) .drops .drop {
+    -webkit-animation: vertical 4133ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4133ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(3) .drops {
+    -webkit-animation: horizontalRight 5767ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5767ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(3) .drops .drop {
+    -webkit-animation: vertical 5767ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5767ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(4) .drops {
+    -webkit-animation: horizontalRight 5772ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5772ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(4) .drops .drop {
+    -webkit-animation: vertical 5772ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5772ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(5) .drops {
+    -webkit-animation: horizontalRight 4611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(5) .drops .drop {
+    -webkit-animation: vertical 4611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(6) .drops {
+    -webkit-animation: horizontalRight 3543ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3543ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(6) .drops .drop {
+    -webkit-animation: vertical 3543ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3543ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(7) .drops {
+    -webkit-animation: horizontalRight 5202ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5202ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(7) .drops .drop {
+    -webkit-animation: vertical 5202ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5202ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(8) .drops {
+    -webkit-animation: horizontalRight 6523ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6523ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(8) .drops .drop {
+    -webkit-animation: vertical 6523ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6523ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(9) .drops {
+    -webkit-animation: horizontalRight 3681ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3681ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(9) .drops .drop {
+    -webkit-animation: vertical 3681ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3681ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(10) .drops {
+    -webkit-animation: horizontalRight 5834ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5834ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(10) .drops .drop {
+    -webkit-animation: vertical 5834ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5834ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(11) .drops {
+    -webkit-animation: horizontalRight 4047ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4047ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(11) .drops .drop {
+    -webkit-animation: vertical 4047ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4047ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(12) .drops {
+    -webkit-animation: horizontalRight 4753ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4753ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(12) .drops .drop {
+    -webkit-animation: vertical 4753ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4753ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(13) .drops {
+    -webkit-animation: horizontalRight 7169ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7169ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(13) .drops .drop {
+    -webkit-animation: vertical 7169ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7169ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(14) .drops {
+    -webkit-animation: horizontalRight 3755ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3755ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(14) .drops .drop {
+    -webkit-animation: vertical 3755ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3755ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(15) .drops {
+    -webkit-animation: horizontalRight 6217ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6217ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(15) .drops .drop {
+    -webkit-animation: vertical 6217ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6217ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(16) .drops {
+    -webkit-animation: horizontalRight 7758ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7758ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(16) .drops .drop {
+    -webkit-animation: vertical 7758ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7758ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(17) .drops {
+    -webkit-animation: horizontalRight 6354ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6354ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(17) .drops .drop {
+    -webkit-animation: vertical 6354ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6354ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(18) .drops {
+    -webkit-animation: horizontalRight 5440ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5440ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(18) .drops .drop {
+    -webkit-animation: vertical 5440ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5440ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(19) .drops {
+    -webkit-animation: horizontalRight 6284ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6284ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(19) .drops .drop {
+    -webkit-animation: vertical 6284ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6284ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(20) .drops {
+    -webkit-animation: horizontalRight 3448ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3448ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(20) .drops .drop {
+    -webkit-animation: vertical 3448ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3448ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(21) .drops {
+    -webkit-animation: horizontalRight 4863ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4863ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(21) .drops .drop {
+    -webkit-animation: vertical 4863ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4863ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(22) .drops {
+    -webkit-animation: horizontalRight 6385ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6385ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(22) .drops .drop {
+    -webkit-animation: vertical 6385ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6385ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(23) .drops {
+    -webkit-animation: horizontalRight 3372ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3372ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(23) .drops .drop {
+    -webkit-animation: vertical 3372ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3372ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(24) .drops {
+    -webkit-animation: horizontalRight 3956ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3956ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(24) .drops .drop {
+    -webkit-animation: vertical 3956ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3956ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(25) .drops {
+    -webkit-animation: horizontalRight 6856ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6856ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(25) .drops .drop {
+    -webkit-animation: vertical 6856ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6856ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(26) .drops {
+    -webkit-animation: horizontalRight 7460ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7460ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(26) .drops .drop {
+    -webkit-animation: vertical 7460ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7460ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(27) .drops {
+    -webkit-animation: horizontalRight 6813ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6813ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(27) .drops .drop {
+    -webkit-animation: vertical 6813ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6813ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(28) .drops {
+    -webkit-animation: horizontalRight 5268ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5268ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(28) .drops .drop {
+    -webkit-animation: vertical 5268ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5268ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(29) .drops {
+    -webkit-animation: horizontalRight 6788ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6788ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(29) .drops .drop {
+    -webkit-animation: vertical 6788ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6788ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(30) .drops {
+    -webkit-animation: horizontalRight 3801ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3801ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(30) .drops .drop {
+    -webkit-animation: vertical 3801ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3801ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(31) .drops {
+    -webkit-animation: horizontalRight 6579ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6579ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(31) .drops .drop {
+    -webkit-animation: vertical 6579ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6579ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(32) .drops {
+    -webkit-animation: horizontalRight 6776ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6776ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(32) .drops .drop {
+    -webkit-animation: vertical 6776ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6776ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(33) .drops {
+    -webkit-animation: horizontalRight 6569ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6569ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(33) .drops .drop {
+    -webkit-animation: vertical 6569ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6569ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(34) .drops {
+    -webkit-animation: horizontalRight 5561ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5561ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(34) .drops .drop {
+    -webkit-animation: vertical 5561ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5561ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(35) .drops {
+    -webkit-animation: horizontalRight 4803ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4803ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(35) .drops .drop {
+    -webkit-animation: vertical 4803ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4803ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(36) .drops {
+    -webkit-animation: horizontalRight 3023ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3023ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(36) .drops .drop {
+    -webkit-animation: vertical 3023ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3023ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(37) .drops {
+    -webkit-animation: horizontalRight 7028ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7028ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(37) .drops .drop {
+    -webkit-animation: vertical 7028ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7028ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(38) .drops {
+    -webkit-animation: horizontalRight 7605ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7605ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(38) .drops .drop {
+    -webkit-animation: vertical 7605ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7605ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(39) .drops {
+    -webkit-animation: horizontalRight 4984ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4984ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(39) .drops .drop {
+    -webkit-animation: vertical 4984ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4984ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(40) .drops {
+    -webkit-animation: horizontalRight 3060ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3060ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(40) .drops .drop {
+    -webkit-animation: vertical 3060ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3060ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(41) .drops {
+    -webkit-animation: horizontalRight 6117ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6117ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(41) .drops .drop {
+    -webkit-animation: vertical 6117ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6117ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(42) .drops {
+    -webkit-animation: horizontalRight 4860ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4860ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(42) .drops .drop {
+    -webkit-animation: vertical 4860ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4860ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(43) .drops {
+    -webkit-animation: horizontalRight 4528ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4528ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(43) .drops .drop {
+    -webkit-animation: vertical 4528ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4528ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(44) .drops {
+    -webkit-animation: horizontalRight 4403ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4403ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(44) .drops .drop {
+    -webkit-animation: vertical 4403ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4403ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(45) .drops {
+    -webkit-animation: horizontalRight 3827ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3827ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(45) .drops .drop {
+    -webkit-animation: vertical 3827ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3827ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(46) .drops {
+    -webkit-animation: horizontalRight 3682ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3682ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(46) .drops .drop {
+    -webkit-animation: vertical 3682ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3682ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(47) .drops {
+    -webkit-animation: horizontalRight 6079ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6079ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(47) .drops .drop {
+    -webkit-animation: vertical 6079ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6079ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(48) .drops {
+    -webkit-animation: horizontalRight 7237ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7237ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(48) .drops .drop {
+    -webkit-animation: vertical 7237ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7237ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(49) .drops {
+    -webkit-animation: horizontalRight 6438ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6438ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(49) .drops .drop {
+    -webkit-animation: vertical 6438ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6438ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(50) .drops {
+    -webkit-animation: horizontalRight 7721ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7721ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(50) .drops .drop {
+    -webkit-animation: vertical 7721ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7721ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(51) .drops {
+    -webkit-animation: horizontalRight 5346ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5346ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(51) .drops .drop {
+    -webkit-animation: vertical 5346ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5346ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(52) .drops {
+    -webkit-animation: horizontalRight 4444ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4444ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(52) .drops .drop {
+    -webkit-animation: vertical 4444ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4444ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(53) .drops {
+    -webkit-animation: horizontalRight 6419ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6419ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(53) .drops .drop {
+    -webkit-animation: vertical 6419ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6419ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(54) .drops {
+    -webkit-animation: horizontalRight 4288ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4288ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(54) .drops .drop {
+    -webkit-animation: vertical 4288ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4288ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(55) .drops {
+    -webkit-animation: horizontalRight 5980ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5980ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(55) .drops .drop {
+    -webkit-animation: vertical 5980ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5980ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(56) .drops {
+    -webkit-animation: horizontalRight 3354ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3354ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(56) .drops .drop {
+    -webkit-animation: vertical 3354ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3354ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(57) .drops {
+    -webkit-animation: horizontalRight 7767ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7767ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(57) .drops .drop {
+    -webkit-animation: vertical 7767ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7767ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(58) .drops {
+    -webkit-animation: horizontalRight 4734ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4734ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(58) .drops .drop {
+    -webkit-animation: vertical 4734ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4734ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(59) .drops {
+    -webkit-animation: horizontalRight 7748ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7748ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(59) .drops .drop {
+    -webkit-animation: vertical 7748ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7748ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(60) .drops {
+    -webkit-animation: horizontalRight 7576ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7576ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(60) .drops .drop {
+    -webkit-animation: vertical 7576ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7576ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(61) .drops {
+    -webkit-animation: horizontalRight 3730ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3730ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(61) .drops .drop {
+    -webkit-animation: vertical 3730ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3730ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(62) .drops {
+    -webkit-animation: horizontalRight 3448ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3448ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(62) .drops .drop {
+    -webkit-animation: vertical 3448ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3448ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(63) .drops {
+    -webkit-animation: horizontalRight 5002ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5002ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(63) .drops .drop {
+    -webkit-animation: vertical 5002ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5002ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(64) .drops {
+    -webkit-animation: horizontalRight 5291ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5291ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(64) .drops .drop {
+    -webkit-animation: vertical 5291ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5291ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(65) .drops {
+    -webkit-animation: horizontalRight 7464ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7464ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(65) .drops .drop {
+    -webkit-animation: vertical 7464ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7464ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(66) .drops {
+    -webkit-animation: horizontalRight 3441ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3441ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(66) .drops .drop {
+    -webkit-animation: vertical 3441ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3441ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(67) .drops {
+    -webkit-animation: horizontalRight 4490ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4490ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(67) .drops .drop {
+    -webkit-animation: vertical 4490ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4490ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(68) .drops {
+    -webkit-animation: horizontalRight 6056ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6056ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(68) .drops .drop {
+    -webkit-animation: vertical 6056ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6056ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(69) .drops {
+    -webkit-animation: horizontalRight 3494ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3494ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(69) .drops .drop {
+    -webkit-animation: vertical 3494ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3494ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(70) .drops {
+    -webkit-animation: horizontalRight 5951ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5951ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(70) .drops .drop {
+    -webkit-animation: vertical 5951ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5951ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(71) .drops {
+    -webkit-animation: horizontalRight 4079ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4079ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(71) .drops .drop {
+    -webkit-animation: vertical 4079ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4079ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(72) .drops {
+    -webkit-animation: horizontalRight 4414ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4414ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(72) .drops .drop {
+    -webkit-animation: vertical 4414ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4414ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(73) .drops {
+    -webkit-animation: horizontalRight 4856ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4856ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(73) .drops .drop {
+    -webkit-animation: vertical 4856ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4856ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(74) .drops {
+    -webkit-animation: horizontalRight 5112ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5112ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(74) .drops .drop {
+    -webkit-animation: vertical 5112ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5112ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(75) .drops {
+    -webkit-animation: horizontalRight 5265ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5265ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(75) .drops .drop {
+    -webkit-animation: vertical 5265ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5265ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(76) .drops {
+    -webkit-animation: horizontalRight 3475ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3475ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(76) .drops .drop {
+    -webkit-animation: vertical 3475ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3475ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(77) .drops {
+    -webkit-animation: horizontalRight 4055ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4055ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(77) .drops .drop {
+    -webkit-animation: vertical 4055ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4055ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(78) .drops {
+    -webkit-animation: horizontalRight 3367ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3367ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(78) .drops .drop {
+    -webkit-animation: vertical 3367ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3367ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(79) .drops {
+    -webkit-animation: horizontalRight 4470ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4470ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(79) .drops .drop {
+    -webkit-animation: vertical 4470ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4470ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(80) .drops {
+    -webkit-animation: horizontalRight 4223ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4223ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(80) .drops .drop {
+    -webkit-animation: vertical 4223ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4223ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(81) .drops {
+    -webkit-animation: horizontalRight 4376ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4376ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(81) .drops .drop {
+    -webkit-animation: vertical 4376ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4376ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(82) .drops {
+    -webkit-animation: horizontalRight 3430ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3430ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(82) .drops .drop {
+    -webkit-animation: vertical 3430ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3430ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(83) .drops {
+    -webkit-animation: horizontalRight 6136ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6136ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(83) .drops .drop {
+    -webkit-animation: vertical 6136ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6136ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(84) .drops {
+    -webkit-animation: horizontalRight 4530ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4530ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(84) .drops .drop {
+    -webkit-animation: vertical 4530ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4530ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(85) .drops {
+    -webkit-animation: horizontalRight 3801ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3801ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(85) .drops .drop {
+    -webkit-animation: vertical 3801ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3801ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(86) .drops {
+    -webkit-animation: horizontalRight 3690ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 3690ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(86) .drops .drop {
+    -webkit-animation: vertical 3690ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3690ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(87) .drops {
+    -webkit-animation: horizontalRight 4194ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4194ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(87) .drops .drop {
+    -webkit-animation: vertical 4194ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4194ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(88) .drops {
+    -webkit-animation: horizontalRight 7654ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7654ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(88) .drops .drop {
+    -webkit-animation: vertical 7654ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7654ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(89) .drops {
+    -webkit-animation: horizontalRight 7662ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7662ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(89) .drops .drop {
+    -webkit-animation: vertical 7662ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7662ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(90) .drops {
+    -webkit-animation: horizontalRight 6194ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6194ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(90) .drops .drop {
+    -webkit-animation: vertical 6194ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6194ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(91) .drops {
+    -webkit-animation: horizontalRight 4822ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4822ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(91) .drops .drop {
+    -webkit-animation: vertical 4822ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4822ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(92) .drops {
+    -webkit-animation: horizontalRight 6045ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6045ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(92) .drops .drop {
+    -webkit-animation: vertical 6045ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6045ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(93) .drops {
+    -webkit-animation: horizontalRight 7108ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7108ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(93) .drops .drop {
+    -webkit-animation: vertical 7108ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7108ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(94) .drops {
+    -webkit-animation: horizontalRight 5270ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5270ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(94) .drops .drop {
+    -webkit-animation: vertical 5270ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5270ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(95) .drops {
+    -webkit-animation: horizontalRight 5394ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5394ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(95) .drops .drop {
+    -webkit-animation: vertical 5394ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5394ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(96) .drops {
+    -webkit-animation: horizontalRight 7440ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 7440ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(96) .drops .drop {
+    -webkit-animation: vertical 7440ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7440ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(97) .drops {
+    -webkit-animation: horizontalRight 4708ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4708ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(97) .drops .drop {
+    -webkit-animation: vertical 4708ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4708ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(98) .drops {
+    -webkit-animation: horizontalRight 6867ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 6867ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(98) .drops .drop {
+    -webkit-animation: vertical 6867ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6867ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(99) .drops {
+    -webkit-animation: horizontalRight 5756ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 5756ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(99) .drops .drop {
+    -webkit-animation: vertical 5756ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5756ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(100) .drops {
+    -webkit-animation: horizontalRight 4899ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalRight 4899ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_right:nth-child(100) .drops .drop {
+    -webkit-animation: vertical 4899ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4899ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left .drops {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -70px;
+  }
+  #face .tear_left .drops .drop {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 100%;
+  }
+  #face .tear_left:nth-child(1) .drops {
+    -webkit-animation: horizontalLeft 3810ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3810ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(1) .drops .drop {
+    width: 18px;
+    height: 18px;
+    -webkit-animation: vertical 3810ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3810ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(2) .drops {
+    -webkit-animation: horizontalLeft 6669ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6669ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(2) .drops .drop {
+    width: 31px;
+    height: 31px;
+    -webkit-animation: vertical 6669ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6669ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(3) .drops {
+    -webkit-animation: horizontalLeft 5119ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5119ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(3) .drops .drop {
+    width: 28px;
+    height: 28px;
+    -webkit-animation: vertical 5119ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5119ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(4) .drops {
+    -webkit-animation: horizontalLeft 6658ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6658ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(4) .drops .drop {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: vertical 6658ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6658ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(5) .drops {
+    -webkit-animation: horizontalLeft 4472ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4472ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(5) .drops .drop {
+    width: 18px;
+    height: 18px;
+    -webkit-animation: vertical 4472ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4472ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(6) .drops {
+    -webkit-animation: horizontalLeft 7087ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7087ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(6) .drops .drop {
+    width: 16px;
+    height: 16px;
+    -webkit-animation: vertical 7087ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7087ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(7) .drops {
+    -webkit-animation: horizontalLeft 6918ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6918ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(7) .drops .drop {
+    width: 22px;
+    height: 22px;
+    -webkit-animation: vertical 6918ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6918ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(8) .drops {
+    -webkit-animation: horizontalLeft 4154ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4154ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(8) .drops .drop {
+    width: 20px;
+    height: 20px;
+    -webkit-animation: vertical 4154ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4154ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(9) .drops {
+    -webkit-animation: horizontalLeft 5992ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5992ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(9) .drops .drop {
+    width: 17px;
+    height: 17px;
+    -webkit-animation: vertical 5992ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5992ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(10) .drops {
+    -webkit-animation: horizontalLeft 4901ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4901ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(10) .drops .drop {
+    width: 18px;
+    height: 18px;
+    -webkit-animation: vertical 4901ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4901ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(11) .drops {
+    -webkit-animation: horizontalLeft 4103ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4103ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(11) .drops .drop {
+    width: 23px;
+    height: 23px;
+    -webkit-animation: vertical 4103ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4103ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(12) .drops {
+    -webkit-animation: horizontalLeft 7195ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7195ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(12) .drops .drop {
+    width: 35px;
+    height: 35px;
+    -webkit-animation: vertical 7195ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7195ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(13) .drops {
+    -webkit-animation: horizontalLeft 6489ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6489ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(13) .drops .drop {
+    width: 17px;
+    height: 17px;
+    -webkit-animation: vertical 6489ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6489ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(14) .drops {
+    -webkit-animation: horizontalLeft 4610ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4610ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(14) .drops .drop {
+    width: 31px;
+    height: 31px;
+    -webkit-animation: vertical 4610ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4610ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(15) .drops {
+    -webkit-animation: horizontalLeft 7739ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7739ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(15) .drops .drop {
+    width: 16px;
+    height: 16px;
+    -webkit-animation: vertical 7739ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7739ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(16) .drops {
+    -webkit-animation: horizontalLeft 7760ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7760ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(16) .drops .drop {
+    width: 29px;
+    height: 29px;
+    -webkit-animation: vertical 7760ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7760ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(17) .drops {
+    -webkit-animation: horizontalLeft 4504ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4504ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(17) .drops .drop {
+    width: 31px;
+    height: 31px;
+    -webkit-animation: vertical 4504ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4504ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(18) .drops {
+    -webkit-animation: horizontalLeft 5722ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5722ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(18) .drops .drop {
+    width: 26px;
+    height: 26px;
+    -webkit-animation: vertical 5722ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5722ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(19) .drops {
+    -webkit-animation: horizontalLeft 7028ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7028ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(19) .drops .drop {
+    width: 34px;
+    height: 34px;
+    -webkit-animation: vertical 7028ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7028ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(20) .drops {
+    -webkit-animation: horizontalLeft 7751ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7751ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(20) .drops .drop {
+    width: 32px;
+    height: 32px;
+    -webkit-animation: vertical 7751ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7751ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(21) .drops {
+    -webkit-animation: horizontalLeft 7110ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7110ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(21) .drops .drop {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: vertical 7110ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7110ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(22) .drops {
+    -webkit-animation: horizontalLeft 3413ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3413ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(22) .drops .drop {
+    width: 32px;
+    height: 32px;
+    -webkit-animation: vertical 3413ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3413ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(23) .drops {
+    -webkit-animation: horizontalLeft 5204ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5204ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(23) .drops .drop {
+    width: 32px;
+    height: 32px;
+    -webkit-animation: vertical 5204ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5204ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(24) .drops {
+    -webkit-animation: horizontalLeft 4902ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4902ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(24) .drops .drop {
+    width: 25px;
+    height: 25px;
+    -webkit-animation: vertical 4902ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4902ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(25) .drops {
+    -webkit-animation: horizontalLeft 5908ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5908ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(25) .drops .drop {
+    width: 22px;
+    height: 22px;
+    -webkit-animation: vertical 5908ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5908ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(26) .drops {
+    -webkit-animation: horizontalLeft 4517ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4517ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(26) .drops .drop {
+    width: 34px;
+    height: 34px;
+    -webkit-animation: vertical 4517ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4517ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(27) .drops {
+    -webkit-animation: horizontalLeft 7152ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7152ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(27) .drops .drop {
+    width: 23px;
+    height: 23px;
+    -webkit-animation: vertical 7152ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7152ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(28) .drops {
+    -webkit-animation: horizontalLeft 6611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(28) .drops .drop {
+    width: 21px;
+    height: 21px;
+    -webkit-animation: vertical 6611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(29) .drops {
+    -webkit-animation: horizontalLeft 7110ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7110ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(29) .drops .drop {
+    width: 26px;
+    height: 26px;
+    -webkit-animation: vertical 7110ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7110ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(30) .drops {
+    -webkit-animation: horizontalLeft 4307ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4307ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(30) .drops .drop {
+    width: 29px;
+    height: 29px;
+    -webkit-animation: vertical 4307ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4307ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(31) .drops {
+    -webkit-animation: horizontalLeft 3982ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3982ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(31) .drops .drop {
+    width: 24px;
+    height: 24px;
+    -webkit-animation: vertical 3982ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3982ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(32) .drops {
+    -webkit-animation: horizontalLeft 4999ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4999ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(32) .drops .drop {
+    width: 19px;
+    height: 19px;
+    -webkit-animation: vertical 4999ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4999ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(33) .drops {
+    -webkit-animation: horizontalLeft 6741ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6741ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(33) .drops .drop {
+    width: 21px;
+    height: 21px;
+    -webkit-animation: vertical 6741ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6741ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(34) .drops {
+    -webkit-animation: horizontalLeft 3610ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3610ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(34) .drops .drop {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: vertical 3610ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3610ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(35) .drops {
+    -webkit-animation: horizontalLeft 3928ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3928ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(35) .drops .drop {
+    width: 23px;
+    height: 23px;
+    -webkit-animation: vertical 3928ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3928ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(36) .drops {
+    -webkit-animation: horizontalLeft 6984ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6984ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(36) .drops .drop {
+    width: 16px;
+    height: 16px;
+    -webkit-animation: vertical 6984ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6984ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(37) .drops {
+    -webkit-animation: horizontalLeft 4623ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4623ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(37) .drops .drop {
+    width: 18px;
+    height: 18px;
+    -webkit-animation: vertical 4623ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4623ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(38) .drops {
+    -webkit-animation: horizontalLeft 7264ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7264ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(38) .drops .drop {
+    width: 34px;
+    height: 34px;
+    -webkit-animation: vertical 7264ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7264ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(39) .drops {
+    -webkit-animation: horizontalLeft 3854ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3854ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(39) .drops .drop {
+    width: 26px;
+    height: 26px;
+    -webkit-animation: vertical 3854ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3854ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(40) .drops {
+    -webkit-animation: horizontalLeft 3168ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3168ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(40) .drops .drop {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: vertical 3168ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3168ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(41) .drops {
+    -webkit-animation: horizontalLeft 5808ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5808ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(41) .drops .drop {
+    width: 22px;
+    height: 22px;
+    -webkit-animation: vertical 5808ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5808ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(42) .drops {
+    -webkit-animation: horizontalLeft 4086ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4086ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(42) .drops .drop {
+    width: 29px;
+    height: 29px;
+    -webkit-animation: vertical 4086ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4086ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(43) .drops {
+    -webkit-animation: horizontalLeft 4237ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4237ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(43) .drops .drop {
+    width: 29px;
+    height: 29px;
+    -webkit-animation: vertical 4237ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4237ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(44) .drops {
+    -webkit-animation: horizontalLeft 4018ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4018ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(44) .drops .drop {
+    width: 19px;
+    height: 19px;
+    -webkit-animation: vertical 4018ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4018ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(45) .drops {
+    -webkit-animation: horizontalLeft 7170ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7170ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(45) .drops .drop {
+    width: 22px;
+    height: 22px;
+    -webkit-animation: vertical 7170ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7170ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(46) .drops {
+    -webkit-animation: horizontalLeft 6180ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6180ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(46) .drops .drop {
+    width: 34px;
+    height: 34px;
+    -webkit-animation: vertical 6180ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6180ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(47) .drops {
+    -webkit-animation: horizontalLeft 4114ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4114ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(47) .drops .drop {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: vertical 4114ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4114ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(48) .drops {
+    -webkit-animation: horizontalLeft 4757ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4757ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(48) .drops .drop {
+    width: 26px;
+    height: 26px;
+    -webkit-animation: vertical 4757ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4757ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(49) .drops {
+    -webkit-animation: horizontalLeft 5244ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5244ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(49) .drops .drop {
+    width: 27px;
+    height: 27px;
+    -webkit-animation: vertical 5244ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5244ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(50) .drops {
+    -webkit-animation: horizontalLeft 7232ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7232ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(50) .drops .drop {
+    width: 18px;
+    height: 18px;
+    -webkit-animation: vertical 7232ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7232ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(51) .drops {
+    -webkit-animation: horizontalLeft 5817ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5817ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(51) .drops .drop {
+    width: 34px;
+    height: 34px;
+    -webkit-animation: vertical 5817ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5817ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(52) .drops {
+    -webkit-animation: horizontalLeft 3962ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3962ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(52) .drops .drop {
+    width: 32px;
+    height: 32px;
+    -webkit-animation: vertical 3962ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3962ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(53) .drops {
+    -webkit-animation: horizontalLeft 3827ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3827ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(53) .drops .drop {
+    width: 21px;
+    height: 21px;
+    -webkit-animation: vertical 3827ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3827ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(54) .drops {
+    -webkit-animation: horizontalLeft 4764ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4764ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(54) .drops .drop {
+    width: 19px;
+    height: 19px;
+    -webkit-animation: vertical 4764ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4764ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(55) .drops {
+    -webkit-animation: horizontalLeft 4038ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4038ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(55) .drops .drop {
+    width: 27px;
+    height: 27px;
+    -webkit-animation: vertical 4038ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4038ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(56) .drops {
+    -webkit-animation: horizontalLeft 3234ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3234ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(56) .drops .drop {
+    width: 27px;
+    height: 27px;
+    -webkit-animation: vertical 3234ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3234ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(57) .drops {
+    -webkit-animation: horizontalLeft 3694ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3694ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(57) .drops .drop {
+    width: 35px;
+    height: 35px;
+    -webkit-animation: vertical 3694ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3694ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(58) .drops {
+    -webkit-animation: horizontalLeft 5523ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5523ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(58) .drops .drop {
+    width: 27px;
+    height: 27px;
+    -webkit-animation: vertical 5523ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5523ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(59) .drops {
+    -webkit-animation: horizontalLeft 7644ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7644ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(59) .drops .drop {
+    width: 19px;
+    height: 19px;
+    -webkit-animation: vertical 7644ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7644ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(60) .drops {
+    -webkit-animation: horizontalLeft 6320ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6320ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(60) .drops .drop {
+    width: 33px;
+    height: 33px;
+    -webkit-animation: vertical 6320ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6320ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(61) .drops {
+    -webkit-animation: horizontalLeft 3181ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3181ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(61) .drops .drop {
+    width: 31px;
+    height: 31px;
+    -webkit-animation: vertical 3181ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3181ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(62) .drops {
+    -webkit-animation: horizontalLeft 7763ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7763ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(62) .drops .drop {
+    width: 33px;
+    height: 33px;
+    -webkit-animation: vertical 7763ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7763ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(63) .drops {
+    -webkit-animation: horizontalLeft 5720ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5720ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(63) .drops .drop {
+    width: 29px;
+    height: 29px;
+    -webkit-animation: vertical 5720ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5720ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(64) .drops {
+    -webkit-animation: horizontalLeft 3998ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3998ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(64) .drops .drop {
+    width: 22px;
+    height: 22px;
+    -webkit-animation: vertical 3998ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3998ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(65) .drops {
+    -webkit-animation: horizontalLeft 3532ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3532ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(65) .drops .drop {
+    width: 21px;
+    height: 21px;
+    -webkit-animation: vertical 3532ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3532ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(66) .drops {
+    -webkit-animation: horizontalLeft 4047ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4047ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(66) .drops .drop {
+    width: 33px;
+    height: 33px;
+    -webkit-animation: vertical 4047ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4047ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(67) .drops {
+    -webkit-animation: horizontalLeft 6783ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6783ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(67) .drops .drop {
+    width: 18px;
+    height: 18px;
+    -webkit-animation: vertical 6783ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6783ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(68) .drops {
+    -webkit-animation: horizontalLeft 5058ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5058ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(68) .drops .drop {
+    width: 31px;
+    height: 31px;
+    -webkit-animation: vertical 5058ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5058ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(69) .drops {
+    -webkit-animation: horizontalLeft 6054ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6054ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(69) .drops .drop {
+    width: 24px;
+    height: 24px;
+    -webkit-animation: vertical 6054ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6054ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(70) .drops {
+    -webkit-animation: horizontalLeft 4212ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4212ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(70) .drops .drop {
+    width: 27px;
+    height: 27px;
+    -webkit-animation: vertical 4212ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4212ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(71) .drops {
+    -webkit-animation: horizontalLeft 4412ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4412ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(71) .drops .drop {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: vertical 4412ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4412ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(72) .drops {
+    -webkit-animation: horizontalLeft 3860ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3860ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(72) .drops .drop {
+    width: 24px;
+    height: 24px;
+    -webkit-animation: vertical 3860ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3860ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(73) .drops {
+    -webkit-animation: horizontalLeft 7210ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7210ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(73) .drops .drop {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: vertical 7210ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7210ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(74) .drops {
+    -webkit-animation: horizontalLeft 5257ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5257ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(74) .drops .drop {
+    width: 27px;
+    height: 27px;
+    -webkit-animation: vertical 5257ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5257ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(75) .drops {
+    -webkit-animation: horizontalLeft 4967ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4967ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(75) .drops .drop {
+    width: 23px;
+    height: 23px;
+    -webkit-animation: vertical 4967ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4967ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(76) .drops {
+    -webkit-animation: horizontalLeft 7321ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7321ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(76) .drops .drop {
+    width: 21px;
+    height: 21px;
+    -webkit-animation: vertical 7321ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7321ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(77) .drops {
+    -webkit-animation: horizontalLeft 7407ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7407ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(77) .drops .drop {
+    width: 32px;
+    height: 32px;
+    -webkit-animation: vertical 7407ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7407ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(78) .drops {
+    -webkit-animation: horizontalLeft 5139ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5139ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(78) .drops .drop {
+    width: 33px;
+    height: 33px;
+    -webkit-animation: vertical 5139ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5139ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(79) .drops {
+    -webkit-animation: horizontalLeft 6872ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6872ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(79) .drops .drop {
+    width: 34px;
+    height: 34px;
+    -webkit-animation: vertical 6872ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6872ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(80) .drops {
+    -webkit-animation: horizontalLeft 6086ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6086ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(80) .drops .drop {
+    width: 29px;
+    height: 29px;
+    -webkit-animation: vertical 6086ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6086ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(81) .drops {
+    -webkit-animation: horizontalLeft 6385ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6385ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(81) .drops .drop {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: vertical 6385ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6385ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(82) .drops {
+    -webkit-animation: horizontalLeft 4991ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4991ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(82) .drops .drop {
+    width: 24px;
+    height: 24px;
+    -webkit-animation: vertical 4991ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4991ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(83) .drops {
+    -webkit-animation: horizontalLeft 4128ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4128ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(83) .drops .drop {
+    width: 28px;
+    height: 28px;
+    -webkit-animation: vertical 4128ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4128ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(84) .drops {
+    -webkit-animation: horizontalLeft 5052ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5052ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(84) .drops .drop {
+    width: 31px;
+    height: 31px;
+    -webkit-animation: vertical 5052ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5052ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(85) .drops {
+    -webkit-animation: horizontalLeft 4541ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4541ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(85) .drops .drop {
+    width: 22px;
+    height: 22px;
+    -webkit-animation: vertical 4541ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4541ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(86) .drops {
+    -webkit-animation: horizontalLeft 4809ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4809ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(86) .drops .drop {
+    width: 21px;
+    height: 21px;
+    -webkit-animation: vertical 4809ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4809ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(87) .drops {
+    -webkit-animation: horizontalLeft 7428ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7428ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(87) .drops .drop {
+    width: 20px;
+    height: 20px;
+    -webkit-animation: vertical 7428ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7428ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(88) .drops {
+    -webkit-animation: horizontalLeft 7611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(88) .drops .drop {
+    width: 18px;
+    height: 18px;
+    -webkit-animation: vertical 7611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7611ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(89) .drops {
+    -webkit-animation: horizontalLeft 7560ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7560ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(89) .drops .drop {
+    width: 19px;
+    height: 19px;
+    -webkit-animation: vertical 7560ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7560ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(90) .drops {
+    -webkit-animation: horizontalLeft 5534ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 5534ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(90) .drops .drop {
+    width: 35px;
+    height: 35px;
+    -webkit-animation: vertical 5534ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 5534ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(91) .drops {
+    -webkit-animation: horizontalLeft 7063ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 7063ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(91) .drops .drop {
+    width: 24px;
+    height: 24px;
+    -webkit-animation: vertical 7063ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 7063ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(92) .drops {
+    -webkit-animation: horizontalLeft 6271ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6271ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(92) .drops .drop {
+    width: 23px;
+    height: 23px;
+    -webkit-animation: vertical 6271ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6271ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(93) .drops {
+    -webkit-animation: horizontalLeft 6995ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6995ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(93) .drops .drop {
+    width: 26px;
+    height: 26px;
+    -webkit-animation: vertical 6995ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6995ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(94) .drops {
+    -webkit-animation: horizontalLeft 6569ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6569ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(94) .drops .drop {
+    width: 23px;
+    height: 23px;
+    -webkit-animation: vertical 6569ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6569ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(95) .drops {
+    -webkit-animation: horizontalLeft 3060ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3060ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(95) .drops .drop {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: vertical 3060ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3060ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(96) .drops {
+    -webkit-animation: horizontalLeft 6229ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6229ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(96) .drops .drop {
+    width: 16px;
+    height: 16px;
+    -webkit-animation: vertical 6229ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6229ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(97) .drops {
+    -webkit-animation: horizontalLeft 4875ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4875ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(97) .drops .drop {
+    width: 29px;
+    height: 29px;
+    -webkit-animation: vertical 4875ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4875ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(98) .drops {
+    -webkit-animation: horizontalLeft 4241ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 4241ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(98) .drops .drop {
+    width: 35px;
+    height: 35px;
+    -webkit-animation: vertical 4241ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 4241ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(99) .drops {
+    -webkit-animation: horizontalLeft 3111ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 3111ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(99) .drops .drop {
+    width: 33px;
+    height: 33px;
+    -webkit-animation: vertical 3111ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 3111ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(100) .drops {
+    -webkit-animation: horizontalLeft 6649ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: horizontalLeft 6649ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  #face .tear_left:nth-child(100) .drops .drop {
+    width: 27px;
+    height: 27px;
+    -webkit-animation: vertical 6649ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+            animation: vertical 6649ms cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite;
+  }
+  
+  @-webkit-keyframes horizontalRight {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(85px);
+    }
+    50% {
+      transform: translateX(60px);
+    }
+    100% {
+      transform: translateX(-100px);
+    }
+  }
+  
+  @keyframes horizontalRight {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(85px);
+    }
+    50% {
+      transform: translateX(60px);
+    }
+    100% {
+      transform: translateX(-100px);
+    }
+  }
+  @-webkit-keyframes horizontalLeft {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(-85px);
+    }
+    50% {
+      transform: translateX(-60px);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  }
+  @keyframes horizontalLeft {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(-85px);
+    }
+    50% {
+      transform: translateX(-60px);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  }
+  @-webkit-keyframes vertical {
+    0% {
+      transform: translateY(0px) scale(0.5);
+    }
+    18% {
+      transform: translateY(8px) scale(1.1);
+    }
+    35% {
+      transform: translateY(-10px) scale(1);
+    }
+    100% {
+      transform: translateY(600px) scale(0);
+    }
+  }
+  @keyframes vertical {
+    0% {
+      transform: translateY(0px) scale(0.5);
+    }
+    18% {
+      transform: translateY(8px) scale(1.1);
+    }
+    35% {
+      transform: translateY(-10px) scale(1);
+    }
+    100% {
+      transform: translateY(600px) scale(0);
+    }
+  }
